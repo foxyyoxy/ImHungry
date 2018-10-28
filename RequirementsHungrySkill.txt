@@ -1,0 +1,14 @@
+Set utterances
+Receive slot data from the user (cuisine, distance, and restaurant)
+Query Zomato API using cusine and distance
+Return list of restaurant IDs matching criteria
+Receive list of restaurant IDs in Alexa, taking it in through restaurant slot
+Have her go through the list, 5 at a time, sorted by distance
+	If user does not like any of the choices, next page
+Upon selection of a restaurant, Alexa should query Zomato once again to
+receive restaurant data
+Take restaurant data and feed to user (stuff like distance, rating, and price
+range)
+
+Slots: AMAZON.NUMBER (for distance), AMAZON.FoodEstablishment (for restaurant)
+Custom slot CUISINE
