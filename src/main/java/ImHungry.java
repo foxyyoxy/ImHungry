@@ -12,7 +12,9 @@ import com.amazon.speech.ui.Reprompt;
 import com.amazon.speech.ui.SimpleCard;
 
 public class ImHungry implements SpeechletV2 {
-    
+
+    private static final String ITEM_SLOT = "Item";
+
     public void onSessionStarted(SpeechletRequestEnvelope<SessionStartedRequest> requestEnvelope) {
         //initialization logic
     }
