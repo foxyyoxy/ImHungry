@@ -7,6 +7,13 @@
     <groupId>ImHungry</groupId>
     <artifactId>ImHungry</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.amazon.alexa</groupId>
+            <artifactId>alexa-skills-kit</artifactId>
+            <version>1.8.1</version>
+        </dependency>
+    </dependencies>
+    <!-- https://mvnrepository.com/artifact/com.amazon.alexa/alexa-skills-kit -->
 
 </project>
